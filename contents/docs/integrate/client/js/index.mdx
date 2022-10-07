@@ -209,7 +209,7 @@ Using `register_once` will ensure that if a property is already set, it will not
 Setting Super Properties creates a cookie on the client with the respective properties and their values. In order to stop sending a Super Property with events and remove the cookie, you can use `posthog.unregister`, like so:
 
 ```js
-posthog.unregister('icecream pref')
+posthog.unregister('icecream_pref')
 ```
 
 This will remove the Super Property and subsequent events will not include it.
